@@ -13,4 +13,7 @@ metadata:
       entirely from scratch.
 spec:
   crossplane:
-    version: ">=v1.7.0-0"
+    version: ">=v1.16.0-0"
+  depends-on:
+    - configuration: xpkg.upbound.io/upbound/platform-ref-aws
+      version: "v1.1.0"
